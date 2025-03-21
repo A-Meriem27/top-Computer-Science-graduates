@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a192f;
+    color: #ffffff;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #112240;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8892b0;
+    transition: 0.3s;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.sidebar ul li:hover, .sidebar ul li.active {
+    background-color: #1d3557;
+    color: #64ffda;
+}
+
+
+.settings-container {
+    margin-left: 270px;
+    padding: 40px;
+    width: calc(100% - 270px);
+}
+
+h1 {
+    color: #64ffda;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.settings-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.settings-section {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 255, 170, 0.2);
+    transition: 0.3s;
+}
+
+.settings-section:hover {
+    box-shadow: 0px 4px 15px rgba(0, 255, 170, 0.4);
+}
+
+.settings-section h2 {
+    font-size: 20px;
+    color: #64ffda;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    background-color: #233554;
+    color: white;
+}
+
+.save {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #64ffda;
+    color: #112240;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.save-btn{
+    background-color: #52e0c4;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #64ffda;
+    color: #112240;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+
